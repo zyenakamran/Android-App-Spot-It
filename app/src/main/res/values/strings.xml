@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">i200802_A1</string>
+
+    <string-array name="country_array">
+        <item>Select Country</item>
+        <item>Pakistan</item>
+        <item>India</item>
+        <item>Iran</item>
+    </string-array>
+
+    <string-array name="city_array">
+        <item>Select City</item>
+        <item>Rawalpindi</item>
+        <item>Delhi</item>
+        <item>Islamabad</item>
+    </string-array>
+</resources>
