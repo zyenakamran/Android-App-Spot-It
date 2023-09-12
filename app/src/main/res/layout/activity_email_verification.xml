@@ -14,8 +14,9 @@
 
         <ImageView
             android:id="@+id/backArrow"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
             android:src="@drawable/back_arrow"
             app:tint="@color/light_black" />
 
@@ -27,7 +28,7 @@
             android:layout_toRightOf="@id/backArrow"
             android:text="Email Verification"
             android:textColor="@color/light_black"
-            android:textSize="30dp"
+            android:textSize="26dp"
             android:textStyle="bold" />
 
         <View
