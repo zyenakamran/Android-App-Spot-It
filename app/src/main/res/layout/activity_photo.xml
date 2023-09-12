@@ -117,6 +117,7 @@
             android:weightSum="2">
 
             <Button
+                android:id="@+id/photoButton"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginRight="5dp"
@@ -129,6 +130,7 @@
                 android:layout_weight="1"/>
 
              <Button
+                android:id="@+id/videoButton"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginLeft="5dp"
