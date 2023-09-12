@@ -36,7 +36,7 @@
             android:layout_height="1dp"
             android:layout_below="@id/emailVerificationHeading"
             android:layout_marginStart="-20dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="-20dp"
             android:background="@color/light_grey"
             android:clipToPadding="false" />
@@ -48,7 +48,7 @@
             android:layout_below="@id/headingEndLine"
             android:text="Enter the code sent to your email"
             android:textColor="@color/black"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="13dp"
             android:textStyle="bold"
             android:textSize="23dp" />
 
@@ -57,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/enterCodeText"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="7dp"
             android:text="Resend code in 23s"
             android:textColor="@color/orange"
             android:textStyle="bold"
@@ -71,7 +71,7 @@
             android:orientation="horizontal"
             android:layout_below="@id/resendCodeText"
             android:weightSum="5"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:paddingLeft="23dp"
             android:paddingRight="10dp">
 
@@ -113,7 +113,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/resendCodeLL"
-            android:layout_marginTop="60dp"
+            android:layout_marginTop="30dp"
             android:orientation="vertical"
             android:weightSum="4">
 
