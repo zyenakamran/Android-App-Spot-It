@@ -103,7 +103,7 @@
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         xmlns:tools="http://schemas.android.com/tools"
-                        android:layout_width="180dp"
+                        android:layout_width="170dp"
                         android:layout_height="190dp"
                         android:layout_marginRight="10dp"
                         app:cardElevation="4dp">
@@ -114,7 +114,6 @@
                             android:layout_height="wrap_content">
 
                             <ImageView
-                                android:id="@+id/itemCard"
                                 android:layout_width="match_parent"
                                 android:layout_height="130dp"
                                 android:src="@drawable/rectangle" />
@@ -137,7 +136,7 @@
 
                                 <TextView
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginStart="55dp"
+                                    android:layout_marginStart="45dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="$10/hr"
@@ -169,7 +168,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="46dp"
+                                    android:layout_marginLeft="36dp"
                                     android:text="7th Mar"
                                     android:textSize="12sp"
                                     />
@@ -184,7 +183,7 @@
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         xmlns:tools="http://schemas.android.com/tools"
-                        android:layout_width="180dp"
+                        android:layout_width="170dp"
                         android:layout_height="190dp"
                         app:cardElevation="4dp">
 
@@ -216,7 +215,7 @@
 
                                 <TextView
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginStart="55dp"
+                                    android:layout_marginStart="45dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="$10/hr"
@@ -248,7 +247,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="46dp"
+                                    android:layout_marginLeft="36dp"
                                     android:text="7th Mar"
                                     android:textSize="12sp"
                                     />
@@ -259,6 +258,9 @@
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
+
+
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -270,7 +272,7 @@
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         xmlns:tools="http://schemas.android.com/tools"
-                        android:layout_width="180dp"
+                        android:layout_width="170dp"
                         android:layout_height="190dp"
                         android:layout_marginRight="10dp"
                         app:cardElevation="4dp">
@@ -303,7 +305,7 @@
 
                                 <TextView
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginStart="55dp"
+                                    android:layout_marginStart="45dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="$10/hr"
@@ -335,7 +337,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="46dp"
+                                    android:layout_marginLeft="36dp"
                                     android:text="7th Mar"
                                     android:textSize="12sp"
                                     />
@@ -350,7 +352,7 @@
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         xmlns:tools="http://schemas.android.com/tools"
-                        android:layout_width="180dp"
+                        android:layout_width="170dp"
                         android:layout_height="190dp"
                         app:cardElevation="4dp">
 
@@ -382,7 +384,7 @@
 
                                 <TextView
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginStart="55dp"
+                                    android:layout_marginStart="45dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="$10/hr"
@@ -414,7 +416,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="46dp"
+                                    android:layout_marginLeft="36dp"
                                     android:text="7th Mar"
                                     android:textSize="12sp"
                                     />
@@ -425,6 +427,9 @@
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
+
+
+
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -436,7 +441,7 @@
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         xmlns:tools="http://schemas.android.com/tools"
-                        android:layout_width="180dp"
+                        android:layout_width="170dp"
                         android:layout_height="190dp"
                         android:layout_marginRight="10dp"
                         app:cardElevation="4dp">
@@ -469,7 +474,7 @@
 
                                 <TextView
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginStart="55dp"
+                                    android:layout_marginStart="45dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="$10/hr"
@@ -501,7 +506,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="46dp"
+                                    android:layout_marginLeft="36dp"
                                     android:text="7th Mar"
                                     android:textSize="12sp"
                                     />
@@ -516,7 +521,7 @@
                         xmlns:android="http://schemas.android.com/apk/res/android"
                         xmlns:app="http://schemas.android.com/apk/res-auto"
                         xmlns:tools="http://schemas.android.com/tools"
-                        android:layout_width="180dp"
+                        android:layout_width="170dp"
                         android:layout_height="190dp"
                         app:cardElevation="4dp">
 
@@ -548,7 +553,7 @@
 
                                 <TextView
                                     android:layout_marginTop="5dp"
-                                    android:layout_marginStart="55dp"
+                                    android:layout_marginStart="45dp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:text="$10/hr"
@@ -580,7 +585,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="46dp"
+                                    android:layout_marginLeft="36dp"
                                     android:text="7th Mar"
                                     android:textSize="12sp"
                                     />
@@ -591,7 +596,12 @@
 
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
+
+
+
                 </LinearLayout>
+
+
             </LinearLayout>
 
 

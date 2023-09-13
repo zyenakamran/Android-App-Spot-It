@@ -47,7 +47,7 @@
         <ImageView
             android:id="@+id/itemImg"
             android:layout_width="match_parent"
-            android:layout_height="340dp"
+            android:layout_height="300dp"
             android:layout_below="@+id/backArrowIcon"
             android:layout_marginTop="12dp"
             android:background="@drawable/sharp_rectangle"/>
@@ -168,7 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/textHeading"
-                    android:layout_marginLeft="180dp"
+                    android:layout_marginLeft="150dp"
                     android:layout_marginTop="10dp"
                     android:layout_toRightOf="@+id/locationText"
                     android:alpha="0.4"
@@ -228,7 +228,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:layout_below="@+id/descriptionText"
-                    android:layout_marginLeft="290dp"
+                    android:layout_marginLeft="270dp"
                     android:layout_marginTop="20dp"
                     android:layout_toRightOf="@id/profilePic"
                     android:background="@drawable/circle" />
@@ -238,7 +238,7 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_below="@+id/descriptionText"
-                    android:layout_marginLeft="300dp"
+                    android:layout_marginLeft="281dp"
                     android:layout_marginTop="30dp"
                     android:layout_toRightOf="@id/profilePic"
                     android:background="@drawable/chat_button" />

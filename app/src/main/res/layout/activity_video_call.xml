@@ -14,7 +14,7 @@
         <ImageView
             android:id="@+id/cameraView"
             android:layout_width="match_parent"
-            android:layout_height="570dp"
+            android:layout_height="575dp"
             android:background="@drawable/sharp_rectangle"
             android:backgroundTint="#9E9A9A9A"/>
 

@@ -81,14 +81,14 @@
             android:id="@+id/chatContainer"
             android:layout_below="@+id/headingEndLine"
             android:layout_width="match_parent"
-            android:layout_height="450dp"
+            android:layout_height="530dp"
             android:orientation="vertical">
 
             <RelativeLayout
                 android:id="@+id/message1RL"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="100dp"
                 android:padding="8dp">
 
                 <ImageView
@@ -408,7 +408,7 @@
                 android:layout_height="36dp"
                 android:layout_below="@id/textReply"
                 android:layout_alignParentEnd="true"
-                android:layout_marginStart="140dp"
+                android:layout_marginStart="120dp"
                 android:layout_marginTop="19dp"
                 android:layout_toEndOf="@id/iconLayout"
                 android:textColor="#FFA500"
