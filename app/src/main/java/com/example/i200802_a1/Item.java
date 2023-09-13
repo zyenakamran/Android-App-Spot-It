@@ -5,17 +5,18 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
-public class PostItem extends AppCompatActivity {
+public class Item extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_post_item);
+        setContentView(R.layout.activity_item);
 
-
-        ImageView back = findViewById(R.id.crossIcon);
+        ImageView back = findViewById(R.id.backArrowIcon);
         back.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -24,22 +25,22 @@ public class PostItem extends AppCompatActivity {
             }
         });
 
-        ImageView img = findViewById(R.id.uploadPhotoButton);
-        img.setOnClickListener(new View.OnClickListener()
+        ImageView chat = findViewById(R.id.chatButtonBg);
+        chat.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PostItem.this, Photo.class);
+                Intent intent = new Intent(Item.this, ChatMessages.class);
                 startActivity(intent);
             }
         });
 
-        ImageView vid = findViewById(R.id.uploadVidButton);
-        vid.setOnClickListener(new View.OnClickListener()
+        TextView report = findViewById(R.id.reportButton);
+        report.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(PostItem.this, Video.class);
+                Intent intent = new Intent(Item.this, Report.class);
                 startActivity(intent);
             }
         });

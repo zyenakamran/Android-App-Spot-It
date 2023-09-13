@@ -6,74 +6,59 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context=".PostItem">
+    tools:context=".EditProfile">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/crossIcon"
+            android:id="@+id/backArrowIcon"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginTop="5dp"
-            android:src="@drawable/cross"
+            android:src="@drawable/back_arrow"
             app:tint="#454545" />
 
         <TextView
-            android:id="@+id/ItemHeading"
+            android:id="@+id/editProfileHeading"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@id/crossIcon"
-            android:text="Item"
+            android:layout_toRightOf="@id/backArrowIcon"
+            android:text="Edit Profile"
             android:textColor="#454545"
             android:textSize="26dp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/saveChangesButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Save Changes"
+            android:textSize="18dp"
+            android:textColor="@color/orange"
+            android:textStyle="bold"
+            android:layout_alignParentRight="true"/>
+
 
         <View
             android:id="@+id/headingEndLine"
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_below="@id/ItemHeading"
+            android:layout_below="@id/editProfileHeading"
             android:layout_marginStart="-20dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="-20dp"
             android:background="@color/light_grey"
             android:clipToPadding="false" />
 
-        <LinearLayout
-            android:id="@+id/uploadLL"
-            android:layout_width="match_parent"
-            android:layout_height="110dp"
-            android:layout_below="@id/headingEndLine"
-            android:layout_marginTop="15dp"
-            android:orientation="horizontal"
-            android:padding="5dp"
-            android:weightSum="2">
-
-            <ImageView
-                android:id="@+id/uploadPhotoButton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/upload_img"
-                android:layout_weight="1"
-                android:layout_marginRight="10dp"/>
-            <ImageView
-                android:id="@+id/uploadVidButton"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/upload_video"
-                android:layout_weight="1"
-                android:layout_marginLeft="10dp"/>
-        </LinearLayout>
-
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="70dp"
             android:scrollbars="none"
-            android:layout_below="@+id/uploadLL">
+            android:layout_below="@+id/headingEndLine">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -98,50 +83,48 @@
                     android:layout_height="50dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rectangle"
-                    android:hint="Enter name"
+                    android:hint="Daud"
                     android:paddingLeft="13dp"
                     android:textSize="18dp" />
 
                 <TextView
-                    android:id="@+id/hourlyRateText"
+                    android:id="@+id/emailText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Hourly Rate"
+                    android:text="Email"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/hourlyRateTextBox"
+                    android:id="@+id/emailTextBox"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="5dp"
                     android:background="@drawable/rectangle"
-                    android:hint="Enter hourly rate"
+                    android:hint="daud@gmail.com"
                     android:paddingLeft="13dp"
                     android:textSize="18dp" />
 
-
                 <TextView
-                    android:id="@+id/descriptionText"
+                    android:id="@+id/contactText"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Description"
+                    android:text="Contact Number"
                     android:textColor="@color/black"
                     android:textSize="15dp"
                     android:textStyle="bold" />
 
                 <EditText
-                    android:id="@+id/descriptionBox"
+                    android:id="@+id/contactTextBox"
                     android:layout_width="match_parent"
-                    android:layout_height="80dp"
+                    android:layout_height="50dp"
                     android:layout_marginTop="5dp"
-                    android:gravity="top"
                     android:background="@drawable/rectangle"
-                    android:hint="Enter description"
-                    android:padding="13dp"
+                    android:hint="0123 4567891"
+                    android:paddingLeft="13dp"
                     android:textSize="18dp" />
 
 
@@ -150,16 +133,41 @@
                     android:layout_height="wrap_content">
 
                     <TextView
+                        android:id="@+id/countryText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Country"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/countrySpinnerBg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/countryText"
+                        android:layout_marginTop="5dp"
+                        android:src="@drawable/rectangle" />
+                    <Spinner
+                        android:id="@+id/countrySpinner"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@id/countryText"
+                        android:layout_marginTop="5dp"
+                        android:entries="@array/item_country_array"
+                        android:paddingLeft="13dp"
+                        android:spinnerMode="dropdown" />
+
+                    <TextView
                         android:id="@+id/cityText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
+                        android:layout_below="@id/countrySpinner"
                         android:text="City"
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         android:textStyle="bold" />
-
-
                     <ImageView
                         android:id="@+id/citySpinnerBg"
                         android:layout_width="match_parent"
@@ -167,8 +175,6 @@
                         android:layout_below="@id/cityText"
                         android:layout_marginTop="5dp"
                         android:src="@drawable/rectangle" />
-
-
                     <Spinner
                         android:id="@+id/citySpinner"
                         android:layout_width="match_parent"
@@ -188,17 +194,7 @@
 
         </ScrollView>
 
-        <Button
-            android:id="@+id/postItemButton"
-            android:layout_width="match_parent"
-            android:layout_height="53dp"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/rectangle"
-            android:backgroundTint="@color/orange"
-            android:text="Post Item"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="20dp" />
+
 
     </RelativeLayout>
 </LinearLayout>

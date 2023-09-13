@@ -2,7 +2,10 @@ package com.example.i200802_a1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class Video extends AppCompatActivity {
 
@@ -10,5 +13,34 @@ public class Video extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_video);
+
+        Button back = findViewById(R.id.exitButton);
+        back.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                finish();
+            }
+        });
+
+        Button photo = findViewById(R.id.photoButton);
+        photo.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Video.this, Photo.class);
+                startActivity(intent);
+            }
+        });
+
+        Button vid = findViewById(R.id.videoButton);
+        vid.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Video.this, Video.class);
+                startActivity(intent);
+            }
+        });
     }
 }
