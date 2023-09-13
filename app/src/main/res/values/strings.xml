@@ -15,6 +15,12 @@
         <item>Islamabad</item>
     </string-array>
 
+    <string-array name="item_city_array">
+        <item>Islamabad</item>
+        <item>Rawalpindi</item>
+        <item>Delhi</item>
+    </string-array>
+
     <string-array name="search_array">
         <item>Best Match</item>
         <item>Featured</item>

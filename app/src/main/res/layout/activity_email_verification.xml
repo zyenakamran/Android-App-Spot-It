@@ -18,7 +18,7 @@
             android:layout_height="30dp"
             android:layout_marginTop="5dp"
             android:src="@drawable/back_arrow"
-            app:tint="@color/light_black" />
+            app:tint="#454545" />
 
         <TextView
             android:id="@+id/emailVerificationHeading"
@@ -27,7 +27,7 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/backArrow"
             android:text="Email Verification"
-            android:textColor="@color/light_black"
+            android:textColor="#454545"
             android:textSize="26dp"
             android:textStyle="bold" />
 
